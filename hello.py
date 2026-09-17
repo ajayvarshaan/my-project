@@ -1,3 +1,4 @@
-#!/usr/bin/env python
+from hello import hello
 
-print("Hello, World! ......................")
+def test_hello():
+    assert hello() == "Hello, World!"
